@@ -35,7 +35,7 @@
 
 
 
-# Hardware Description
+## Hardware Description
 
 **Microcontroller – ESP32-C6-WROOM-1-N8**  
 The ESP32-C6 serves as the central processing unit, responsible for handling all system-level operations, communication with peripherals, and power management.  
