@@ -112,5 +112,5 @@ GPIO: Button control and general I/O, SPI: SD Card, NOR Flash, E-Paper Display, 
 
 ## Block Diagram
 
-![Block Diagram](./Images/block_diagram.png)
+![Block Diagram](./Images/tscblock.jpg)
 
