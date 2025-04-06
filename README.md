@@ -31,3 +31,41 @@
 | W25Q512JVEIQ                     | [Model](https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond+Electronics/view-part/?ref=eda)                | [Datasheet](https://www.winbond.com/resource-files/W25Q512JV%20SPI%20RevB%2006252019%20KMS.pdf)              |
 | XC6220A331MR-G                   | [Model](https://componentsearchengine.com/part-view/XC6220A331MR-G/Torex)                | [Datasheet](https://product.torexsemi.com/system/files/series/xc6220.pdf)              |
 
+
+
+
+
+# ⚙️ Hardware Description
+
+**Microcontroller – ESP32-C6-WROOM-1-N8**  
+The ESP32-C6 serves as the central processing unit, responsible for handling all system-level operations, communication with peripherals, and power management.  
+**Architecture:** RISC-V 32-bit, **Clock Speed:** 160 MHz, **Wireless Connectivity:** 2.4 GHz Wi-Fi 6, Bluetooth 5.0  
+
+**Power Management & Battery**  
+Battery Type: Li-Po (Lithium Polymer), Capacity: 3.7V 1800mAh, Charging Circuit: MCP73831T, Input Voltage: 5V via USB-C, Protection Features: Overcharge and deep discharge protection, Voltage Regulator: LDO regulator providing 3.3V stable output  
+
+**Display – E-Paper (E-Ink)**  
+Screen Size: 7.5 inches, Resolution: 800x480 pixels, Communication Interface: SPI  
+
+**SD Card Module**  
+Type: MicroSD (supports FAT32), Interface: SPI  
+
+**External NOR Flash**  
+Capacity: 64MB, Interface: SPI  
+
+**Environmental Sensor – BME688**  
+Functions: Measures temperature, humidity, pressure, and gas levels, Communication Interface: I2C  
+
+**Real-Time Clock (RTC) – DS3231SN**  
+Functionality: Maintains time and date during power-off, Communication Interface: I2C  
+
+**USB-C Connector & ESD Protection**  
+Functionality: Provides power and data transfer, Protection: ESD protection and Schottky diode for reverse polarity  
+
+**Buttons & User Input**  
+Tactile push buttons for user interaction  
+
+**Communication Interfaces**  
+GPIO: Button control and general I/O, SPI: SD Card, NOR Flash, E-Paper Display, I2C: BME688 and DS3231SN, UART: Serial communication and debugging, Wi-Fi & Bluetooth: via ESP32-C6  
+
+
