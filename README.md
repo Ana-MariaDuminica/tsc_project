@@ -89,9 +89,9 @@ GPIO: Button control and general I/O, SPI: SD Card, NOR Flash, E-Paper Display, 
 | E-Paper Display                  | SPI       | Transfers image data to the display and controls its state              | IO7 (MOSI), IO6 (SCK), IO10 (CS), IO5 (DC), IO23 (RST), IO3 (BUSY) |
 | MicroSD Card                     | SPI       | Allows storage and retrieval of e-book files                            | IO7 (MOSI), IO6 (SCK), IO4 (SS_SD), IO2 (MISO)          |
 | Environmental Sensor (BME688)    | I2C       | Reads temperature, humidity, pressure, and air quality data             | IO21 (SDA), IO22 (SCL)                                  |
+| USB-C Connection                 | USB       | Powers and programs the ESP32-C6                                        | GPIOs through voltage regulation                        |
+| Control Buttons                  | GPIO      | User input for device interactions                                      | IO9 (BOOT), IO15 (CHANGE), EN (RESET)                   |
 | RTC Module (DS3231)              | I2C       | Keeps track of time even when ESP32 is off                              | IO21 (SDA), IO22 (SCL), IO18 (RST), IO1 (32KHz), IO0 (INT_RTC) |
 | External NOR Flash               | SPI       | Provides additional storage for application data                        | IO11 (CS), IO6 (SCK), IO2 (MISO), IO7 (MOSI)            |
 | Battery Monitoring               | I2C       | Reads battery voltage and charge status                                 | IO21 (SDA), IO22 (SCL)                                  |
-| USB-C Connection                 | USB       | Powers and programs the ESP32-C6                                        | GPIOs through voltage regulation                        |
-| Control Buttons                  | GPIO      | User input for device interactions                                      | IO9 (BOOT), IO15 (CHANGE), EN (RESET)                   |
 
