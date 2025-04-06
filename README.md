@@ -105,12 +105,8 @@ GPIO: Button control and general I/O, SPI: SD Card, NOR Flash, E-Paper Display, 
   **1. Inductor – L1 (IND_4828-WE-TPC_WRE)**  
   Footprint pad size was increased to **32mil × 16mil** to accommodate 0.3 mm (11.8mil) power traces without triggering DRC width violations.
 
-  ![L1 Pad Resize]
-
   **2. Fuel Gauge – U4 (MAX17048G+T10, footprint SON50P200X200X80-9N)**  
   The original pad size of **29.92mil × 10.63mil** was modified to **32mil × 16mil** to ensure proper trace connection without violating clearance or minimum width rules.
-
-  ![U4 Pad Resize]
 
 - These changes ensure that all traces, especially for power delivery, comply with the netclass requirements (e.g., minimum 0.3 mm width for VBAT, VBUS, etc.) and eliminate false-positive DRC errors.
 
