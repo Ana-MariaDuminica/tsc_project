@@ -70,16 +70,15 @@ GPIO: Button control and general I/O, SPI: SD Card, NOR Flash, E-Paper Display, 
 
 
 ## Power Consumption Estimation
+| Component                         | Current Draw (mA) | Voltage (V) | Power (mW) | Typical Current Range (mA) | Notes                            |
+|----------------------------------|-------------------|-------------|------------|-----------------------------|----------------------------------|
+| ESP32-C6 (Wi-Fi active)          | 140               | 3.3         | 462        | 120 – 160                   | High usage during communication |
+| E-Paper Display (Updating)       | 20                | 3.3         | 66         | 15 – 26                     | Active only during refresh       |
+| BME688 Sensor (Measuring)        | 2.1               | 3.3         | 6.93       | 1.7 – 3.1                   | Low-power environmental sensing |
+| RTC Module (Active)              | 0.8               | 3.3         | 2.64       | 0.5 – 1                     | Minimal power requirement        |
+| SD Card (Active)                 | 60                | 3.3         | 198        | 30 – 100                    | Used during data access          |
+| External NOR Flash (e.g. W25Q32) | 10                | 3.3         | 33         | 4 – 20                      | Accessed for storage operations |
 
-| Component                   | Current Draw (mA) | Voltage (V) | Power (mW) |
-|----------------------------|-------------------|-------------|------------|
-| ESP32-C6 (Wi-Fi active)    | 200               | 3.3         | 660        |
-| E-Paper Display (Updating) | 40                | 3.3         | 132        |
-| BME688 Sensor (Measuring)  | 3.1               | 3.3         | 10.23      |
-| RTC Module (Active)        | 0.15              | 3.3         | 0.495      |
-| SD Card (Active)           | 50                | 3.3         | 165        |
-| External NOR Flash         | 25                | 3.3         | 82.5       |
-| **Total Estimated Consumption** | **~318.5 mA**   | **3.3**     | **1050.72** |
 
 
 ## ESP32-C6 Pin Mapping
