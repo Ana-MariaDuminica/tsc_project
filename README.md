@@ -4,7 +4,7 @@
 
 | Component       | Supplier Link                          | Datasheet                                 |
 |-----------------|----------------------------------------|-------------------------------------------|
-| 112A-TAAR-R03   | [Model](https://www.example.com)       | [Datasheet](https://www.example.com)      |
+| 112A-TAAR-R03   | [Model](https://store.comet.srl.ro/Catalogue/Product/43497/)       | [Datasheet](https://www.snapeda.com/parts/112A-TAAR-R03/Attend/datashee)|
 | 744043680       | [Model](https://www.example.com)       | [Datasheet](https://www.example.com)      |
 | BD5229G-TR      | [Model](https://www.example.com)       | [Datasheet](https://www.example.com)      |
 | Capacitor 0402  | [Model](https://www.example.com)       | [Datasheet](https://www.example.com)      |
