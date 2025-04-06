@@ -69,3 +69,14 @@ Tactile push buttons for user interaction
 GPIO: Button control and general I/O, SPI: SD Card, NOR Flash, E-Paper Display, I2C: BME688 and DS3231SN, UART: Serial communication and debugging, Wi-Fi & Bluetooth: via ESP32-C6  
 
 
+## Power Consumption Estimation
+
+| Component                   | Current Draw (mA) | Voltage (V) | Power (mW) |
+|----------------------------|-------------------|-------------|------------|
+| ESP32-C6 (Wi-Fi active)    | 200               | 3.3         | 660        |
+| E-Paper Display (Updating) | 40                | 3.3         | 132        |
+| BME688 Sensor (Measuring)  | 3.1               | 3.3         | 10.23      |
+| RTC Module (Active)        | 0.15              | 3.3         | 0.495      |
+| SD Card (Active)           | 50                | 3.3         | 165        |
+| External NOR Flash         | 25                | 3.3         | 82.5       |
+| **Total Estimated Consumption** | **~318.5 mA**   | **3.3**     | **1050.72** |
