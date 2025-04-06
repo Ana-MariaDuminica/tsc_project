@@ -1,6 +1,6 @@
 # TSC-Project
 
-## 📦 BOM (Bill Of Materials)
+## BOM (Bill Of Materials)
 
 | Component       | Supplier Link                          | Datasheet                                 |
 |-----------------|----------------------------------------|-------------------------------------------|
