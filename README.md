@@ -110,4 +110,7 @@ GPIO: Button control and general I/O, SPI: SD Card, NOR Flash, E-Paper Display, 
 
 - These changes ensure that all traces, especially for power delivery, comply with the netclass requirements (e.g., minimum 0.3 mm width for VBAT, VBUS, etc.) and eliminate false-positive DRC errors.
 
+## Block Diagram
+
+![Block Diagram](./Images/block_diagram.png)
 
