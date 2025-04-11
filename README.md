@@ -97,7 +97,7 @@ GPIO: Button control and general I/O, SPI: SD Card, NOR Flash, E-Paper Display, 
 
 ## Design Notes
 
-- The final PCB layout includes approximately **140 vias**, used primarily to optimize routing between layers while keeping signal integrity and clearance constraints in check.
+- The final PCB layout includes approximately **120 vias**, used primarily to optimize routing between layers while keeping signal integrity and clearance constraints in check.
 
 - The following footprint and pad adjustments were manually made for compatibility with routing rules (specifically Copper Width DRC):
 
